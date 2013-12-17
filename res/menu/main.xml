@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/home" android:orderInCategory="1" android:title="Dosada.ba" android:showAsAction="always" android:actionViewClass="@string/home"></item>
+    <item android:id="@+id/categories" android:orderInCategory="2" android:title="Categories" android:showAsAction="always" android:actionViewClass="@string/categories">
+        <menu>
+            <item android:id="@+id/Vijesti" android:actionViewClass="@string/catVijesti" android:title="Vijesti"/>
+            <item android:id="@+id/Nauka" android:actionViewClass="@string/catNauka" android:title="Nauka"/>
+            <item android:id="@+id/Vicevi" android:actionViewClass="@string/catVicevi" android:title="Vicevi"/>
+        </menu>
+    </item>
+    <item android:id="@+id/login" android:orderInCategory="3" android:title="Login" android:showAsAction="always" android:actionViewClass="@string/login"></item>
+</menu>
